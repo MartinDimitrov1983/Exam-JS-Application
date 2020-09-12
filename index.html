@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SoftTerest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="./styles/common.css" />
+  <link rel="stylesheet" href="./styles/home.css" />
+  <link rel="stylesheet" href="./styles/login.css" />
+  <link rel="stylesheet" href="./styles/dashboard.css" />
+  <link rel="stylesheet" href="./styles/ideas.css" />
+  <script src="./node_modules/jquery/dist/jquery.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="node_modules/handlebars/dist/handlebars.js"></script>
+  <script src="node_modules/sammy/lib/sammy.js"></script>
+  <script src="./node_modules/sammy/lib/plugins/sammy.handlebars.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+  <!-- <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script> -->
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDuv4yrIieH4zGWOUW_ZWm4D59QgotrhCg",
+      authDomain: "mydatabase-b1124.firebaseapp.com",
+      databaseURL: "https://mydatabase-b1124.firebaseio.com",
+      projectId: "mydatabase-b1124",
+      storageBucket: "mydatabase-b1124.appspot.com",
+      messagingSenderId: "79533906709",
+      appId: "1:79533906709:web:340efa1f5921a0bd49e71c"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+</head>
+
+<body>
+  <div id="main"></div>
+
+  <script src="./scripts/app.js" type="module"></script>
+</body>
+</html>
