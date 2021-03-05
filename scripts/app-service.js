@@ -9,7 +9,7 @@ export const requester = (function() {
 
     /**
      * Updates the auth token which is applied to the requests
-     * @param {string} token firebaseAuthToken
+     * @param {string} token gti
      */
     let setAuthToken = (token) => {
         _recipes = fireBaseRequestFactory(apiKey, 'recipes', token);
